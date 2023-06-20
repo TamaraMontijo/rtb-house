@@ -29,9 +29,6 @@ let slides = slideContainer.getElementsByClassName("slider");
 let currentIndex = 0;
 
 function nextOffer() {
-  let currentOffer = slides[currentIndex];
-  let previousOffer = slides[(currentIndex - 1 + slides.length) % slides.length];
-
   for (let i = 0; i < slides.length; i++) {
     if (i === currentIndex) {
       slides[i].style.display = "flex";

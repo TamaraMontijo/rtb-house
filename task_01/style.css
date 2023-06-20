@@ -24,6 +24,10 @@
   height: 70px;
 }
 
+.offer.hovered {
+  border: 3px solid #ED4136;
+}
+
 strong {
   font-size: 14px;
   margin-top: 4px;
@@ -40,3 +44,4 @@ strong {
   width: 250px;
   height: auto;
 }
+
