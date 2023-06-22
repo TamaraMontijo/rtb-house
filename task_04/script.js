@@ -15,6 +15,9 @@ timeline
   //   gsap.from('.madrid', { x: '-100%' });
   // })
   .to('.madrid', {scale: 1.2, duration: 3})
+  .to('.berlin', { opacity: 1 })
+  .from('.berlin', { x: '100%' })
+  .to('.berlin', {scale: 1.2, duration: 3})
 
   
   
