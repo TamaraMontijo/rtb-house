@@ -44,13 +44,14 @@ h1 {
 .warsaw {
   background: url("https://rekrutacja.webdeveloper.rtbhouse.net/files/warsaw.jpg") no-repeat;
   background-size: cover;
-  z-index: 7;
+  z-index: 6;
 }
 
 .madrid {
   background: url("https://rekrutacja.webdeveloper.rtbhouse.net/files/madrid.jpg");
   background-size: cover;
-  z-index: 6;
+  z-index: 7;
+  opacity: 0;
 }
 
 .berlin {
