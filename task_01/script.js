@@ -8,7 +8,7 @@ fetch('https://rekrutacja.webdeveloper.rtbhouse.net/files/banner.json')
     offers.slice(0, 4).forEach((offer, index) => {
       // HTML
       insertElement.insertAdjacentHTML('beforeend', 
-      `<div class="offer offer-${index}" onmouseover="frame(this)" onmouseout="unframe(this)">
+      `<div class="offer ${index}" onmouseover="frame(this)" onmouseout="unframe(this)">
         <img src=${offer.imgURL} alt="">
         <strong>${offer.price} ${offer.currency}</strong>
       </div>`
@@ -71,6 +71,7 @@ function frame(div) {
 
 function unframe(div) {
   div.style.border = "1px solid gray";
+  currentIndex = parseInt(div.className[div.className.length - 1])
   animationPaused = false;
 }
 

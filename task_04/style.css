@@ -1,0 +1,60 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  letter-spacing: -2px;
+  font-size: 32px;
+}
+
+.banner {
+  width: 300px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  background-color: #FADA15;
+  margin-left: 25px;
+  padding-inline: 25px;
+  margin-top: 120%;
+  position: relative;
+  z-index: 10;
+}
+
+.yellow-background, .warsaw, .madrid, .berlin {
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.yellow-background {
+  background-color: #FADA15;
+  z-index: 9;
+}
+
+.white-background {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background-color: white;
+  z-index: 8;
+}
+
+.warsaw {
+  background: url("https://rekrutacja.webdeveloper.rtbhouse.net/files/warsaw.jpg") no-repeat;
+  background-size: cover;
+  z-index: 7;
+}
+
+.madrid {
+  background: url("https://rekrutacja.webdeveloper.rtbhouse.net/files/madrid.jpg");
+  background-size: cover;
+  z-index: 6;
+}
+
+.berlin {
+  background: url("https://rekrutacja.webdeveloper.rtbhouse.net/files/berlin.jpg") no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
