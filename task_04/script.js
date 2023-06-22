@@ -2,7 +2,7 @@ const timeline = gsap.timeline({ defaults: {duration: 0.5}})
 
 timeline
   .from('.yellow-background', { y: '100%'})
-  .from('.logo', { x: '-50%'})
+  .from('.logo', { x: '-150%'})
   .to('.logo', { y: '-715%'})
   .add(
     timeline.to('.yellow-background', { y: '-100%' }),
