@@ -5,6 +5,15 @@ h1 {
   font-size: 32px;
 }
 
+p {
+  font-family: 'Rubik', sans-serif;
+}
+
+strong {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
 .banner {
   width: 300px;
   height: 600px;
@@ -12,15 +21,6 @@ h1 {
   overflow: hidden;
 }
 
-.logo {
-  background-color: #FADA15;
-  margin-left: 35px;
-  margin-right: 130px;
-  padding-inline: 25px;
-  margin-top: 113%;
-  position: relative;
-  z-index: 10;
-}
 
 .yellow-background, .warsaw, .madrid, .berlin {
   width: 300px;
@@ -69,4 +69,59 @@ h1 {
   position: absolute;
   background-color: transparent;
   z-index: 10;
+}
+
+.info {
+  margin-top: -30px;
+}
+
+.logo {
+  background-color: #FADA15;
+  margin-left: 35px;
+  margin-right: 130px;
+  padding-inline: 25px;
+  margin-top: 113%;
+  position: relative;
+}
+
+.country {
+  background-color: white;
+  margin-left: 35px;
+  margin-right: 185px;
+  padding-inline: 15px;
+  opacity: 0;
+}
+
+.city {
+  background-color: #FADA15;
+  margin-top: -33px;
+  top: -7px;
+  margin-left: 35px;
+  margin-right: 118px;
+  padding-inline: 14px;
+  font-size: 32px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.price {
+  line-height: 10%;
+  color: #FADA15;
+  margin-left: 120px;
+  opacity: 0;
+}
+
+.book-now {
+  background-color: white;
+  position: relative;
+  margin-left: 120px;
+  margin-right: 45px;
+  padding-block: 10px;
+  padding-inline: 25px;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+#country-p {
+  opacity: 1;
 }
